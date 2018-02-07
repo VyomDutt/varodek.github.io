@@ -1832,6 +1832,7 @@ There is no real, physical existence of <b>arr2[0], arr2[1]</b> and <b>arr2[2]</
 
 <td class="main">
 <h1 align="center"><u>malloc()</u></h1>
+<p><center><i><a href=#use_malloc>Click here</a> to learn how to use <code><b>malloc()</b></code></i></center></p>
 <ol type="1">
 <li><p></p>Allocates a memory block of size, given to it as a parameter, in bytes. If it does it successfully, it returns the address of the first byte of the sequence.</li>
 <li><p>If it fails, it returns <b>NULL</b>. </p></li>
@@ -1866,6 +1867,8 @@ There is no real, physical existence of <b>arr2[0], arr2[1]</b> and <b>arr2[2]</
 
 <td class="main">
 <h1 align="center"><u>calloc()</u></h1>
+<p><center><i><a href=#dynamic_1d_calloc>Click here</a> to learn how to use <code><b>calloc()</b></code></i></center></p>
+
 <p>It accepts the number of elements of array, and size of each element of the array as a parameter. It itself calculates the number of bytes to be allocated and rest working is same as of malloc. </p>
 
 </td>
@@ -1884,6 +1887,8 @@ There is no real, physical existence of <b>arr2[0], arr2[1]</b> and <b>arr2[2]</
 
 <td class="main">
 <h1 align="center"><u>realloc()</u></h1>
+<p><center><i><a href=#dynamic_1d_realloc>Click here</a> to learn how to use <code><b>realloc()</b></code></i></center></p>
+
 <p>It re-allocates the memory, allocated by malloc/ calloc. It must be previously allocated by <b>malloc(), calloc() or realloc()</b> and not yet freed with a call to free or realloc. Otherwise, the results are undefined.</p>
 
 <p>The reallocation is done by either: </p>
@@ -2146,6 +2151,9 @@ There is no real, physical existence of <b>arr2[0], arr2[1]</b> and <b>arr2[2]</
 
 <td class="main">
 <h1 align="center"><u>Dynamic re-allocation of 1-D array using <code>realloc()</code></u></h1>
+<p><center><i>Before using re-alloc, you should have prior knowledge of using <code><b>malloc()</b></code> or <code><b>calloc()</b></code></i></center></p>
+<p><center><i><a href=#use_malloc>Click here</a> to learn how to use <code><b>malloc()</b></code></i></center></p>
+<p><center><i><a href=#dynamic_1d_calloc>Click here</a> to learn how to use <code><b>calloc()</b></code></i></center></p>
 <pre>
 <div class="codee">
  <span class="preprocess">#include</span> <span class="text">&#60;stdio.h&#62;</span>
@@ -2283,6 +2291,10 @@ There is no real, physical existence of <b>arr2[0], arr2[1]</b> and <b>arr2[2]</
 
 <td class="main">
 <h1 align="center"><u>Dynamic Allocation of 2-D array</u></h1>
+<p><center><i>You are suggested to acquire prior knowledge of using <code><b>malloc()</b></code> or <code><b>calloc()</b></code></i></center></p>
+<p><center><i><a href=#use_malloc>Click here</a> to learn how to use <code><b>malloc()</b></code></i></center></p>
+<p><center><i><a href=#dynamic_1d_calloc>Click here</a> to learn how to use <code><b>calloc()</b></code></i></center></p>
+
 
 <p>The dynamically allocated 2-D array is very much different than static one. Implementing dynamic allocation of 2-D array or 3-D array etc., is more like playing with pointers. To do this it is required that you read everything taught above in this website. The dynamically allocated 2-D array is very much different than static one. Implementing dynamic allocation of 2-D array or 3-D array etc., is more like playing with pointers. To do this it is required that you read everything taught above in this website.</p>
 
