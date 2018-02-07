@@ -1022,7 +1022,7 @@ Consider this code:
   <span class="dtype">int</span> <span class="white">arr[</span><span class="text"> 5 </span><span class="white">] = {</span><span class="text">3</span><span class="white">,</span></span><span class="text">43</span><span class="white">,</span></span><span class="text">23</span><span class="white">,</span></span><span class="text">4</span><span class="white">,</span></span><span class="text">2</span><span class="white">};</span>
   <span class="dtype">int</span> <span class="white">*b = NULL, i;</span>
   <span class="white">b = arr;</span>
-<span class="comment">/* or you can also write ptr=&a[0]; as both &#39;a&#39; and</br> &#39;ptr&#39; are pointers */ </span>
+<span class="comment">/* or you can also write ptr=&#38;a[0]; as both &#39;a&#39; and</br> &#39;ptr&#39; are pointers */ </span>
 
   <span class="loop">for</span><span class="white">(i = </span> <span class="text">0</span> <span class="white">; i &#60; </span> <span class="text">5</span><span class="white">; i++)</span>
    <span class="white">printf(</span> <span class="text">&#34;</span><span class="textmodf"> %u</span> <span class="text">&#34;</span><span class="white">, *(b + i));</span>
