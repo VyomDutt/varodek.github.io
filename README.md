@@ -3,7 +3,7 @@
 - This a tutorial on learning pointers in C,C++.
 - All the topics are covered to make one understand how things work.
 - Every topic is covered with an example code.
-- Methodology is: 
+- The Methodology is: 
    - Code
    - run
    - observe output
